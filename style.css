@@ -594,34 +594,35 @@ footer .text span a:hover {
     color: #4070f4;
   }
 }
-.skills-grid {
+.skills-row {
   display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
   margin-top: 30px;
 }
 
-.skill-column {
+.skill-group {
   flex: 1 1 200px;
   min-width: 200px;
 }
 
-.skill-column h3 {
-  font-size: 20px;
+.skill-group h3 {
+  font-size: 18px;
   color: #333;
   margin-bottom: 10px;
   border-bottom: 2px solid #4CAF50;
-  display: inline-block;
   padding-bottom: 5px;
 }
 
-.skill-column ul {
+.skill-group ul {
   list-style-type: disc;
   padding-left: 20px;
+  margin: 0;
 }
 
-.skill-column ul li {
+.skill-group ul li {
   margin-bottom: 8px;
+  font-size: 16px;
   color: #555;
 }
