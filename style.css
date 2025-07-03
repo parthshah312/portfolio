@@ -626,3 +626,39 @@ footer .text span a:hover {
   font-size: 16px;
   color: #555;
 }
+
+.experience {
+  padding: 40px 0;
+  background: #f4f7fc;
+}
+
+.experience .title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.experience-details {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience-details .box {
+  background: white;
+  border-left: 6px solid #3a86ff;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.experience-details .box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.experience-details .box p {
+  margin: 5px 0;
+}
